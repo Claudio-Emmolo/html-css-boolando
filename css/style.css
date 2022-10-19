@@ -52,17 +52,17 @@ div.main-logo img{
     width: 130px;
 }
 
-section.nav-bar ul li{
+ul.nav li{
     margin: 0 .3rem;
     display: inline;
 }
 
-section.nav-bar ul li a{
+ul.nav a{
     text-decoration: none;
     color: white;
 }
 
-section.nav-bar ul li a:hover{
+ul.nav li a:hover{
     color: rgb(179, 179, 179);
 
 }
@@ -200,7 +200,7 @@ span.sale{
 footer{
     width: 100%;
     height: 90px;
-    background-color: rgb(68, 68, 68);
+    background-color: #1a1a1a;
     margin-top: 3rem;
 }
 
@@ -209,3 +209,31 @@ footer{
     height: 100%;
     justify-content: space-between;    
 }
+
+div.footer-section h1{
+    font-size: 1rem;
+}
+
+nav.nav-foot{
+    margin-top: .5rem;
+}
+
+ul.nav-foot,
+ul.nav-social{
+    margin-top: .5rem;
+}
+
+ul.nav-foot li a{
+    font-size: .75rem;
+}
+
+div.social-icon h1{
+    text-align: center;
+}
+
+ul.nav-social li a{
+    font-size: 1.3rem;
+}
+
+
+
