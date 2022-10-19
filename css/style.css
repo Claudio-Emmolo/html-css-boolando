@@ -4,3 +4,58 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* -------GENERAL------- */
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/* -------HEADER------- */
+
+header{
+    width: 100%;
+    height: 55px;
+    background-color: orange;
+}
+
+section.nav-bar{
+    height: 100%;
+    background-color: aqua;
+}
+
+nav.menu,
+div.account-icon{
+    width: 30%;
+    height: 100%;
+    border: 1px red solid;
+}
+
+div.main-logo{
+    width: 40%;
+    height: 100%;
+    border: 1px black solid;
+}
+
+section.nav-bar ul li{
+    margin: 0 .7rem;
+    display: inline;
+}
+
+nav.menu{
+    justify-content: flex-start;
+}
+
+div.account-icon{
+    justify-content: flex-end;
+}
