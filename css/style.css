@@ -80,14 +80,12 @@ div.account-icon{
 section.row-items{
     margin-top: 2.5rem;
     height: 500px;
-    border: 1px solid red;
 }
 
 article.shop-article{
     height: 100%;
     width: calc((100% / 3) - 1rem );
     margin: 0 1rem;
-    border: 1px solid blue;
 
     position: relative;
 }
@@ -96,6 +94,37 @@ div.img-article{
     width: 100%;
     height: 85%;
     background-color: rgb(138, 138, 66);
+
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* IMG HOVER */
+article.shop-article:hover #art-relaxed-fit{
+    background-image: url(../img/1b.webp);
+}
+
+article.shop-article:hover #roses-tee{
+    background-image: url(../img/2b.webp);
+}
+
+article.shop-article:hover #colori-pastello{
+    background-image: url(../img/3b.webp);
+}
+
+
+/* ARTICLE ID IMG */
+#art-relaxed-fit{
+    background-image: url(../img/1.webp);
+}
+
+#roses-tee{
+    background-image: url(../img/2.webp);
+}
+
+#colori-pastello{
+    background-image: url(../img/3.webp);
+
 }
 
 /* DISCOUNT BOX POSITION */
@@ -123,19 +152,25 @@ span.sostenibilita{
 
 /* ARTICLE CLASS PRICE BOX */
 span.marca{
-
+    font-size: .8rem;
 }
 
 span.title-art{
-
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 span.price{
-
+    margin-top: .5rem;
+    font-size: .9rem;
+    color: red;
 }
 
 span.sale{
-
+    margin-left: .3rem;
+    color: grey;
+    text-decoration: line-through;
 }
 
 /* -------FOOTER------- */
