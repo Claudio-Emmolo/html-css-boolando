@@ -112,6 +112,18 @@ article.shop-article:hover #colori-pastello{
     background-image: url(../img/3b.webp);
 }
 
+article.shop-article:hover #tee-unisex{
+    background-image: url(../img/4b.webp);
+}
+
+article.shop-article:hover #strip-bodice{
+    background-image: url(../img/5b.webp);
+}
+
+article.shop-article:hover #maglione{
+    background-image: url(../img/6b.webp);
+}
+
 
 /* ARTICLE ID IMG */
 #art-relaxed-fit{
@@ -124,9 +136,19 @@ article.shop-article:hover #colori-pastello{
 
 #colori-pastello{
     background-image: url(../img/3.webp);
-
 }
 
+#tee-unisex{
+    background-image: url(../img/4.webp);
+}
+
+#strip-bodice{
+    background-image: url(../img/5.webp);
+}
+
+#maglione{
+    background-image: url(../img/6.webp);
+}
 /* DISCOUNT BOX POSITION */
 
 div.discount{
